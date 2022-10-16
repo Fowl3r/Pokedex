@@ -1,0 +1,50 @@
+/* :root {
+
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: red;
+}
+
+.sprite {
+    height: 40vh;
+    width: 60vw;
+}
+
+.sprite > img {
+    height: 50vh;
+    width: 50vw;
+}
+
+.poke-description{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 70vw;
+    gap: 10px;
+
+}
+
+.poke-description > p{
+    font-size: 40px;
+    color: white;
+
+}
